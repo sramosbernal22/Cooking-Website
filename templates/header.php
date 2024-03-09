@@ -31,6 +31,26 @@
         li{
             color: black;
         }
+
+        .edit-button{
+            color: white;
+        }
+        .edit-button-container{
+            margin-top: 20px;   /* Increase top margin */
+            margin-bottom: 10px;  /* Decrease bottom margin */
+            padding: 10px;  /* Just for demonstration, you can adjust padding as needed */
+            /*border: 1px solid #000;  /* Just for demonstration, you can remove this */
+        }
+
+        .delete-form{
+            margin-top: 20px;   /* Increase top margin */
+            margin-bottom: 10px;  /* Decrease bottom margin */
+            padding: 10px;  /* Just for demonstration, you can adjust padding as needed */
+            /*border: 1px solid #000;  /* Just for demonstration, you can remove this */
+        }
+
+
+
         @media (max-width: 1200px) and (orientation: portrait) {
           
             .brand-logo.brand-text{

@@ -59,8 +59,14 @@ if(isset($_GET["id"])){
             <a href = "<?php echo htmlspecialchars($recipe['link']);?>" target="_blank"><?php echo htmlspecialchars($recipe['link']);?></href>
 
 
+
+             <!-- Edit FORM-->
+            <div class = 'edit-button-container'>
+				<a class = "edit-button" href = "edit.php?id=<?php echo $recipe['id']?>">Edit</a>
+			</div>
+
              <!-- DELETE FORM-->
-            <form action="details.php" method="POST">
+            <form action="details.php" method="POST" class = 'delete-form'>
                 <input type = "hidden" name  = "id_to_delete" value = "<?php echo $recipe['id'] ?>">
                 <input type = "submit" name  = "delete" value = "Delete" class = "btn brand z-depth-0">
             </form>
